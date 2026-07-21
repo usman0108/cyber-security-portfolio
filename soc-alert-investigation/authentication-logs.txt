@@ -1,0 +1,10 @@
+2026-07-22 09:14:03 LOGIN_FAILED user=j.smith src_ip=203.0.113.45 location=Netherlands reason=Invalid password
+2026-07-22 09:14:18 LOGIN_FAILED user=j.smith src_ip=203.0.113.45 location=Netherlands reason=Invalid password
+2026-07-22 09:14:35 LOGIN_FAILED user=j.smith src_ip=203.0.113.45 location=Netherlands reason=Invalid password
+2026-07-22 09:15:02 LOGIN_FAILED user=j.smith src_ip=203.0.113.45 location=Netherlands reason=Invalid password
+2026-07-22 09:15:26 LOGIN_FAILED user=j.smith src_ip=203.0.113.45 location=Netherlands reason=Invalid password
+2026-07-22 09:16:04 LOGIN_SUCCESS user=j.smith src_ip=203.0.113.45 location=Netherlands mfa=not_used
+2026-07-22 09:17:40 PASSWORD_CHANGE user=j.smith src_ip=203.0.113.45 location=Netherlands
+2026-07-22 09:19:12 EMAIL_FORWARDING_RULE_CREATED user=j.smith src_ip=203.0.113.45 destination=external-mailbox@example.com
+2026-07-22 09:25:55 LOGIN_SUCCESS user=j.smith src_ip=198.51.100.22 location=United Kingdom mfa=used
+2026-07-22 09:26:21 USER_REPORTED_SUSPICIOUS_ACTIVITY user=j.smith location=United Kingdom
