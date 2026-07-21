@@ -22,15 +22,16 @@ Analysed phishing email indicators including suspicious sender details, links, a
 
 ---
 
-### 2. SOC Alert Investigation
+2. SOC Alert Investigation
 Investigated suspicious authentication activity involving multiple failed logins, a successful login, password change, and external email forwarding rule creation.
 
 **Skills demonstrated:**
 - Authentication log analysis
 - Brute-force / credential attack identification
 - Account compromise investigation
+- IoC identification
 - Incident response recommendations
-- SOC alert documentation
+- SOC-style reporting
 
 [View project](./soc-alert-investigation)
 
