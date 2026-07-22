@@ -1,0 +1,22 @@
+Simulated Incident Timeline
+
+Incident Date: 22 July 2026
+Affected Host: WS-014
+Affected User: a.brown
+Environment: Simulated internal endpoint
+
+09:02:11 - User received a suspicious email with an attachment named invoice_update.docm
+09:04:27 - User opened the attachment
+09:05:03 - Microsoft Office spawned a PowerShell process
+09:05:18 - PowerShell attempted to connect to external IP 203.0.113.77
+09:06:44 - Endpoint detection alert triggered for suspicious script execution
+09:07:10 - Unusual outbound traffic detected from WS-014
+09:09:35 - Unknown executable created in user AppData directory
+09:12:02 - Multiple DNS requests observed for suspicious domain update-checker.example
+09:15:22 - SOC analyst began investigation
+09:18:40 - Host WS-014 isolated from the network
+09:25:10 - User account password reset requested
+09:40:33 - Malware scan initiated
+10:15:54 - Suspicious file removed
+10:32:18 - Endpoint patched and rebooted
+11:00:00 - Device monitored for further suspicious activity
