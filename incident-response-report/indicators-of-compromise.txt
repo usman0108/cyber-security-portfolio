@@ -1,0 +1,39 @@
+Indicators of Compromise - Simulated Malware Incident
+
+Affected Host:
+WS-014
+
+Affected User:
+a.brown
+
+Suspicious File:
+invoice_update.docm
+
+Suspicious Process:
+powershell.exe spawned by Microsoft Office
+
+Suspicious File Path:
+C:\Users\a.brown\AppData\Roaming\update.exe
+
+Suspicious External IP:
+203.0.113.77
+
+Defanged IP:
+203[.]0[.]113[.]77
+
+Suspicious Domain:
+update-checker.example
+
+Defanged Domain:
+update-checker[.]example
+
+Observed Behaviour:
+- Suspicious email attachment opened
+- Office application spawned PowerShell
+- Outbound connection to suspicious external IP
+- Unknown executable created in AppData directory
+- Suspicious DNS requests observed
+- Endpoint detection alert triggered
+
+Possible Incident Type:
+Malware infection / phishing-led compromise / command-and-control activity
