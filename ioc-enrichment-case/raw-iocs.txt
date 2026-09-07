@@ -1,0 +1,41 @@
+Raw Indicators of Compromise - Simulated Case
+
+Case ID: IOC-2026-07-22-001
+Incident Type: Suspected phishing-led malware activity
+Environment: Simulated corporate environment
+Affected Host: WS-014
+Affected User: a.brown
+
+Raw Indicators:
+
+IP Address:
+203.0.113.77
+
+IP Address:
+198.51.100.66
+
+Domain:
+update-checker.example
+
+URL:
+http://update-checker.example/download/update.exe
+
+Defanged URL:
+hxxp://update-checker[.]example/download/update[.]exe
+
+Suspicious File:
+invoice_update.docm
+
+Suspicious File Path:
+C:\Users\a.brown\AppData\Roaming\update.exe
+
+SHA256 File Hash:
+f2b3c4d5e6a79810b1c2d3e4f506172839405162738495a6b7c8d9e0f1a2b3c4
+
+Observed Behaviour:
+- User opened suspicious document attachment
+- Microsoft Office spawned PowerShell
+- PowerShell attempted outbound connection to external IP
+- Unknown executable created in AppData directory
+- Suspicious DNS request observed
+- Endpoint detection alert triggered
