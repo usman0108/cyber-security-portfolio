@@ -1,0 +1,48 @@
+Simulated Windows Security Events
+
+Event Date: 22 July 2026
+Environment: Simulated Windows domain environment
+
+09:10:14 Event ID 4625 - Failed login attempt
+Account: temp.user
+Source IP: 10.0.1.45
+Reason: Invalid password
+
+09:11:02 Event ID 4625 - Failed login attempt
+Account: temp.user
+Source IP: 10.0.1.45
+Reason: Invalid password
+
+09:12:31 Event ID 4624 - Successful login
+Account: temp.user
+Source IP: 10.0.1.45
+Logon Type: 10 - Remote Interactive
+
+09:14:08 Event ID 4728 - Member added to privileged group
+Account Added: temp.user
+Group: Domain Admins
+Changed By: admin.jones
+
+09:16:22 Event ID 4672 - Special privileges assigned to new logon
+Account: temp.user
+Privileges: SeDebugPrivilege, SeBackupPrivilege, SeRestorePrivilege
+
+09:18:40 Event ID 4688 - New process created
+Account: temp.user
+Process: powershell.exe
+Command: powershell.exe -ExecutionPolicy Bypass
+
+09:21:05 Event ID 4732 - Member added to local administrators group
+Account Added: temp.user
+Group: Administrators
+Host: WS-021
+
+09:26:33 Event ID 4729 - Member removed from privileged group
+Account Removed: temp.user
+Group: Domain Admins
+Changed By: admin.jones
+
+09:30:12 Event ID 4624 - Successful login
+Account: admin.jones
+Source IP: 10.0.1.11
+Logon Type: 2 - Interactive
