@@ -1,0 +1,24 @@
+Simulated User Activity Logs
+
+Incident Date: 22 July 2026
+Environment: Simulated corporate environment
+User: m.taylor
+Department: Finance
+Employment Status: Notice period
+Normal Working Hours: 09:00 - 17:30
+
+08:55:12 LOGIN_SUCCESS user=m.taylor location=United Kingdom device=CORP-LAP-044
+09:10:33 FILE_ACCESS user=m.taylor file=Finance_Q3_Report.xlsx classification=Confidential action=opened
+10:22:41 FILE_ACCESS user=m.taylor file=Payroll_Summary.xlsx classification=Confidential action=opened
+11:04:18 EMAIL_SENT user=m.taylor recipient=internal.manager@example.com subject="handover notes"
+
+18:47:55 LOGIN_SUCCESS user=m.taylor location=United Kingdom device=CORP-LAP-044
+18:52:10 FILE_ACCESS user=m.taylor file=Client_Contracts.zip classification=Confidential action=downloaded
+18:54:22 FILE_ACCESS user=m.taylor file=Payroll_Archive.zip classification=Confidential action=downloaded
+18:57:49 FILE_ACCESS user=m.taylor file=Supplier_List.xlsx classification=Internal action=downloaded
+19:02:15 FILE_ACCESS user=m.taylor file=Finance_Backup.zip classification=Confidential action=downloaded
+19:06:44 USB_DEVICE_CONNECTED user=m.taylor device=CORP-LAP-044 device_type=removable_storage
+19:08:20 FILE_COPY user=m.taylor destination=removable_storage file=Client_Contracts.zip
+19:09:03 FILE_COPY user=m.taylor destination=removable_storage file=Payroll_Archive.zip
+19:11:40 EMAIL_SENT user=m.taylor recipient=personal.email@example.com attachment=Supplier_List.xlsx
+19:18:06 LOGOUT user=m.taylor device=CORP-LAP-044
