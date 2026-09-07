@@ -1,73 +1,73 @@
 # Cyber Security Portfolio
 
 ## About
-This portfolio contains practical cyber security projects completed as part of my development towards an entry-level SOC Analyst, IT Support, or Cyber Security Analyst role.
+I am a CompTIA Security+ and Network+ certified aspiring SOC Analyst / IT Support Analyst with a strong interest in security operations, incident response, networking and threat detection.
 
-I am CompTIA Security+ and Network+ certified, with a strong interest in security monitoring, phishing analysis, incident response, vulnerability management, networking, and cloud security.
+This portfolio contains practical cyber security projects based on simulated SOC and IT security scenarios. The projects focus on phishing analysis, SOC alert investigation, vulnerability management, SIEM-style log analysis, incident response, privilege escalation detection, insider threat analysis and IoC enrichment.
+
+The aim of this portfolio is to demonstrate my ability to review security evidence, identify risks, document findings clearly and recommend appropriate remediation steps.
+
+## Certifications
+- CompTIA Security+ - Completed July 2026
+- CompTIA Network+ - Completed May 2026
+- Cyber Security Programme - Learning People - Ongoing
 
 ## Projects
 
 ### 1. Phishing Email Analysis
-Analysed phishing email indicators including suspicious sender details, links, attachments, social engineering tactics, and indicators of compromise.
+Reviewed a simulated phishing email to identify suspicious sender details, links, attachments, social engineering tactics and indicators of compromise.
 
-**Skills demonstrated:**
-- Phishing analysis
-- Email indicator review
-- IoC identification
-- Social engineering recognition
-- SOC-style reporting
-- Remediation recommendations
+[View Project](./phishing-email-analysis)
 
-[View project](./phishing-email-analysis)
+### 2. SOC Alert Investigation
+Analysed suspicious authentication logs involving failed login attempts, successful login activity, password changes and an external forwarding rule.
 
----
-
-2. SOC Alert Investigation
-Investigated suspicious authentication activity involving multiple failed logins, a successful login, password change, and external email forwarding rule creation.
-
-**Skills demonstrated:**
-- Authentication log analysis
-- Brute-force / credential attack identification
-- Account compromise investigation
-- IoC identification
-- Incident response recommendations
-- SOC-style reporting
-
-[View project](./soc-alert-investigation)
-
----
+[View Project](./soc-alert-investigation)
 
 ### 3. Vulnerability Management
-Coming soon.
+Reviewed simulated vulnerability scan results, identified insecure services and misconfigurations, assessed risk and prioritised remediation actions.
 
-**Planned skills:**
-- Vulnerability identification
-- Risk rating
-- Remediation planning
-- Patch management awareness
-
----
+[View Project](./vulnerability-management)
 
 ### 4. SIEM Log Analysis
-Coming soon.
+Investigated simulated web server logs to identify scanning activity, failed login attempts, suspicious user agents, SQL injection-style requests and XSS indicators.
 
-**Planned skills:**
-- Log searching
-- Suspicious activity detection
-- Alert triage
-- Security event investigation
+[View Project](./siem-log-analysis)
 
-## Certifications
-- CompTIA Security+
-- CompTIA Network+
+### 5. Incident Response Report
+Created an incident response report for a simulated phishing-led malware incident involving suspicious PowerShell activity, outbound connections and endpoint alerts.
 
-## Key Skills
-- Networking fundamentals
-- Security monitoring
-- Phishing analysis
-- Incident response fundamentals
+[View Project](./incident-response-report)
+
+### 6. Privilege Escalation Hunt
+Reviewed simulated Windows security events to identify suspicious privilege escalation activity, group membership changes, special privileges and PowerShell execution.
+
+[View Project](./privilege-escalation-hunt)
+
+### 7. Insider Threat Use Case
+Analysed unusual user activity involving after-hours access, confidential file downloads, removable storage use and possible data exfiltration indicators.
+
+[View Project](./insider-threat-use-case)
+
+### 8. IoC Enrichment Case
+Reviewed and enriched simulated indicators of compromise including IP addresses, domains, URLs, file paths and hashes to support SOC investigation and response.
+
+[View Project](./ioc-enrichment-case)
+
+## Skills Demonstrated
+- SOC alert triage
 - Log analysis
+- SIEM-style investigation
+- Phishing analysis
+- Incident response documentation
 - Vulnerability management
-- Access control
-- Microsoft 365 fundamentals
-- Windows fundamentals
+- Privilege escalation detection
+- Insider threat analysis
+- IoC enrichment
+- Risk assessment
+- Remediation planning
+- Technical documentation
+
+## Contact
+- LinkedIn: www.linkedin.com/in/usman-jahngir-380b47340
+- GitHub: github.com/usman0108/cyber-security-portfolio
